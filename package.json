@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Playwright Integration",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "tests": "playwright test --config=playwright.config.ts --project=chromium"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
